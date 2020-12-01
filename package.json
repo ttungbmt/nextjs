@@ -1,0 +1,19 @@
+{
+  "name": "nextjs",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ]
+  },
+  "scripts": {
+    "dev": "lerna run build --stream --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "resolutions": {},
+  "engines": {
+    "node": ">= 10.13.0"
+  }
+}
